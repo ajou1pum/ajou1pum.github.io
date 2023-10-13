@@ -1,3 +1,143 @@
-??>
-<html>
-</html>
+<!DOCTYPE html><!--문서타입 html5-->
+<html> <!--시작태그-->
+    <head>
+        <title>000의 홈페이지 </title>
+        <meta charset="utf-8" />
+        <!--utd-8,eyc-kr-->
+        <meta name="keywords" contents="웹퍼블리싱,계원,html,css" /> 
+    </head>
+    <body><!--본문-->
+        <a href="sub.html">서브페이지</a>
+        <a href="http://www.google.com">구글 바로가기</a>
+        <a href="http://www.naver.com"target="_blank" title="naver">네이버 바로가기</a>
+        <img width="100px" height="100px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS96B3IFLIj9qev8EP14lkQZuJgjZNNdnn-NA&usqp=CAU">
+       <img src="image/다운로드.jpg"/>
+        <img /> <!--독립형태그-->
+
+        <태그 속성="값">내용</태그>
+        <태그 속성="값" />
+        
+         <h1>대한민국</h1>
+               <h2>서울특별시</h2>
+                    <h3>영등포구</h3>
+               <h2>경기도</h2>
+                    <h3>안양시</h3>
+                    <h3>의왕시</h3>
+            <hr />
+            <h1>미국</h1>
+            <h1>일본</h1>
+            <h1>중국</h1>
+
+            <P>문단은 한가지 주제를 가지고 있는 여러 문장으로 이루어진 단</P>
+
+            html에서는            띄어쓰기, <br /> 줄바꿈 무시
+            <hr /> 
+            
+            <strong>강한 강조</strong> 
+            <em>강조</em> 
+            <!-- 의미를 부여 (권장)-->
+           
+            <b>굵은 글씨</b> 
+            <i>기울임꼴(이텔릭체)</i> 
+            <!-- 모양을 부여 (비권장)-->
+
+            <ins>추가글</ins>
+            <del>삭제글</del>
+
+            <u>밑줄</u>
+            <strike>중간줄</strike> 
+
+            윗첨자<sup>윗쪽에 붙여서 부연설명</sup>
+            아랫첨자<sub>아랫쪽에 붙여서 부연설명</sub>
+
+            <ul>
+                <li>리스트1</li>
+                <li>리스트2</li>
+                <li>리스트2</li>
+            </ul>
+            <ol>
+                <li>리스트1</li>
+                <li>리스트2</li>
+                <li>리스트2</li>
+            </ol>
+            <dl>
+                <dt>용어1</dt>
+                <dd>용어설명</dd>
+                <dt>HTML</dt>
+                <dd>Hyper Text Markup Language</dt>
+            </dl>
+            <style>
+                th, td{
+                    border: solid 1px black;
+                }
+            </style> <!-- CSS -->
+            <table summary="table 기본">
+            <caption>table기본형태</caption>
+            <thead>
+                <tr> <!-- 한줄 row 행 -->
+                    <th scope="col" rowspan="2">제목1</th> <!-- 제목 한칸 colum 열 -->
+                    <th scope="col" colspan="2">제목2</th>
+                    <th scope="col">제목3</th>  
+                </tr>
+            </thead>
+                <tr>
+                    <td>내용1</td> <!-- 내용 한칸 -->
+                    <td>내용2</td>
+                    <td>내용3</td>
+                </tr>
+                <tr>
+                    <td>내용1</td> <!-- 내용 한칸 -->
+                    <td>내용2</td>
+                    <td>내용3</td>
+                </tr>
+                <tbody>
+                    <!--표 본문-->
+                </tbody>
+                <tfoot>
+                    <!--표 끝-->
+                </tfoot>
+            </table>
+
+            <div>블록형 구획 나눔</div>
+            <span>인라인형 구획 나눔</span>
+            <!-- 의미없이 사용하기 좋은 태그 -->
+            
+            
+            <form>
+                <label for="number">주민등록번호</label>
+                <input type="text" placeholder="기호 없이 숫자만 입력해주세요"/>
+                <input type="text" value="123456" />
+                <input type="password"/>
+
+                <input type="radio" value="1"name="p1" checked/>사과
+                <input type="radio" value="2"name="p1"/>배
+                <input type="radio" value="3"name="p1"/>딸기
+
+                <input type="checkbox" value="1" checked/>빨강
+                <input type="checkbox" value="2" checked/>노랑
+                <input type="checkbox" value="3" checked/>파랑
+
+
+                <select>
+                    <option>네이버</option>
+                    <option>구글</option>
+                    <option>계원</option>
+                </select>
+                <textarea row="5" cols="60"> 여러줄의 장문을 작성</textarea>
+
+                <input onclick="alert('버튼눌림');" type="button" value="버튼입니다"/>
+                <button>
+                     <strong>버튼입니다</strong> 
+                </button>
+                <input type="submit"value="제출"/>
+            </form>
+
+           
+            
+            </body>
+                  
+
+    </body>
+
+</html> <!--종료태그-->
+ 
